@@ -10,11 +10,10 @@ The prefixes also ensure graceful degradation for older browsers that support on
 Bourbon uses SCSS syntax.
 
 
-## Requirements
-- Sass 3.2+
+##Requirements
+- SASS 3.2+
 
-## Install Instructions
-
+##Installation
 Install [SASS](http://sass-lang.com/).
 
 `cd` to your projects local repository and run:
@@ -26,7 +25,8 @@ git submodule add https://github.com/CoRD-Dev/libbourbon.git sass/bourbon
 
 The generated folder will contain all Bourbons files.
 
-Import Bourbon at the beginning of your stylesheet(s). All additional imports should be below Bourbon:
+Import Bourbon at the beginning of your stylesheet. 
+All additional imports should be below Bourbon:
 
 ```scss
 @import "bourbon/bourbon";
@@ -34,35 +34,15 @@ Import Bourbon at the beginning of your stylesheet(s). All additional imports sh
 // All other imports
 ```
 
-(Optional) Install [Neat](https://github.com/CoRD-Dev/libneat#install-instructions) and [Bitters](https://github.com/CoRD-Dev/libbitters#install-instructions).
+(Optional) Install [Neat](https://github.com/CoRD-Dev/libneat) and [Bitters](https://github.com/CoRD-Dev/libbitters).
 
 
-#### Other Commands
-Visit the [Command line tools wiki](https://github.com/thoughtbot/bourbon/wiki/Command-Line-Tools) for a complete list
-
-    bourbon help
-    bourbon update
-    
-##### [Bourbon v2.x install instructions](https://github.com/thoughtbot/bourbon/wiki/Bourbon-v2.x-or-Rails-2.3-Install)
-
--------
-# [Changelog](https://github.com/thoughtbot/bourbon/wiki)
-
-# [Browser support](https://github.com/thoughtbot/bourbon/wiki/Browser-Support)
--------
-
-Credits
--------
-
+##Credits
 ![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
 
-Bourbon is maintained and funded by [thoughtbot, inc](http://thoughtbot.com/community)
+Bourbon is maintained and funded by [thoughtbot, inc](http://thoughtbot.com/). Follow [@thoughtbot](http://twitter.com/thoughtbot) on Twitter.
 
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+libbourbon is maintained by [CoRD](http://cord-dev.github.io/) and [The_Catman](http://catmanix.github.io/).
 
-Got questions? Need help? Tweet at [@phillapier](http://twitter.com/phillapier).
-
-License
--------
-
+##License
 Bourbon is Copyright © 2011-2013 thoughtbot. It is free software, and may be redistributed under the terms specified in the LICENSE file.
